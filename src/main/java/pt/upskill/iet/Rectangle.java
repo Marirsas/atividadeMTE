@@ -16,4 +16,11 @@ public class Rectangle extends Figure {
         double height = Math.abs(bottomRight.getyCoord() - upperLeft.getyCoord());
         return 2 * (width + height);
     }
+
+    @Override
+    public double area() {
+        double width = Math.abs(bottomRight.getxCoord() - upperLeft.getxCoord());
+        double height = Math.abs(bottomRight.getyCoord() - upperLeft.getyCoord());
+        return width * height;
+    }
 }
