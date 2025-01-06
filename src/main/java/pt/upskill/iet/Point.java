@@ -1,27 +1,27 @@
 package pt.upskill.iet;
 
 public class Point {
-    private int x_coord;
-    private int y_coord;
+    private int xCoord;
+    private int yCoord;
 
-    public Point(int x_coord, int y_coord) {
-        this.x_coord = x_coord;
-        this.y_coord = y_coord;
+    public Point(int xCoord, int yCoord) {
+        this.xCoord = xCoord;
+        this.yCoord = yCoord;
     }
 
-    public int getX_coord() {
-        return x_coord;
+    public int getxCoord() {
+        return xCoord;
     }
 
-    public int getY_coord() {
-        return y_coord;
+    public int getyCoord() {
+        return yCoord;
     }
 
-    public void setX_coord(int x_coord) {
-        this.x_coord = x_coord;
+    public void setxCoord(int xCoord) {
+        this.xCoord = xCoord;
     }
 
-    public void setY_coord(int y_coord) {
-        this.y_coord = y_coord;
+    public void setyCoord(int yCoord) {
+        this.yCoord = yCoord;
     }
 }
