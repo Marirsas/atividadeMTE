@@ -1,3 +1,5 @@
+package pt.upskill.iet;
+
 public class Point {
     private int x_coord;
     private int y_coord;
