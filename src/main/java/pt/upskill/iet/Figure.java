@@ -14,4 +14,6 @@ public abstract class Figure {
     public void setColor(Color color) {
         this.color = color;
     }
+
+    public abstract double perimeter();
 }

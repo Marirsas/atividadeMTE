@@ -1,10 +1,11 @@
 package pt.upskill.iet;
 
-public class Circle {
+public class Circle extends Figure {
     private Point center;
     private double radius;
 
-    public Circle(Point center, double radius) {
+    public Circle(Point center, double radius, Color color) {
+        super(color);
         this.center = center;
         this.radius = radius;
     }
@@ -27,5 +28,10 @@ public class Circle {
 
     public double expand(double scaleFactor) {
         return scaleFactor;
+    }
+
+    @Override
+    public double perimeter() {
+        return 2 * Math.PI * radius;
     }
 }
